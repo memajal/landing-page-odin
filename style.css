@@ -1,0 +1,41 @@
+
+body{
+    width:80%;
+    margin: 0 auto;
+}
+
+/*body, header, #menu, #logo{
+    border: 5px solid red;
+}
+*/
+
+header{
+    background-color: #1F2937;
+    color: white;
+}
+
+
+ header #logo{
+    font-size:24px;
+    color:#F9FAF8;
+    width:40%;
+}
+
+
+ header #header_content{
+    margin: 0 15%;
+    display:flex;
+    justify-content: space-between;    
+}
+
+ header #menu{
+    display:flex;
+    flex-direction:row;
+    gap: 20px;
+}
+
+ header #menu li{
+    list-style-type:none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
