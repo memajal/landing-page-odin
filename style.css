@@ -73,7 +73,7 @@ header, #introduction{
 
 /*content style */
  #content{
-    text-align:center;
+    text-align: center;
  }
 
  #content h2{
@@ -99,4 +99,26 @@ header, #introduction{
     width:80%;
     margin: 5px auto;
     color: grey;
+ }
+
+ /*content quote design */
+ #content_quote{
+    background-color: #E5E7EB;
+    padding-bottom: 100px;
+ }
+
+ #content_quote p{
+    padding-top:100px;
+    margin: 0px 20%;
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+    color:#1F2937;
+ }
+
+ #content_quote h4{
+    margin: 0px 20%;
+    font-weight: bold;
+    font-size:18px;
+    text-align: right;
  }
