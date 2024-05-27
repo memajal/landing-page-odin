@@ -159,9 +159,20 @@ header, #introduction{
     height:30px;
     width:100px;
     background-color: #3882F6;
-    color:white;
+    color:#E5E7EB;
     border: 2px solid white;
     border-radius: 5px;
     margin: auto 0px;
  }
  
+ /*footer section style */
+
+ footer{
+    background-color: #1F2937;
+    height: 80px;
+    color:#E5E7EB;
+ }
+
+ footer p{
+    padding-top: 30px;
+ }
