@@ -1,7 +1,7 @@
 
 body{
     margin: 0 auto;
-    font-family: "Roboto", 'Times New Roman', serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 header, #introduction{
@@ -70,3 +70,33 @@ header, #introduction{
   height:200px;
   margin-top:45px;
 }
+
+/*content style */
+ #content{
+    text-align:center;
+ }
+
+ #content h2{
+    font-size:36px; 
+    font-weight:extra-bold;
+    color:#1F2937;
+ }
+
+ #content img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+ }
+
+ #content_part_1{
+    margin: 0 20% 100px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .content_elements p{
+    width:80%;
+    margin: 5px auto;
+    color: grey;
+ }
