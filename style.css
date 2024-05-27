@@ -1,28 +1,20 @@
 
 body{
-    width:80%;
     margin: 0 auto;
+    font-family: "Roboto", 'Times New Roman', serif;
 }
 
-/*body, header, #menu, #logo{
-    border: 5px solid red;
-}
-*/
-
-header{
+header, #introduction{
     background-color: #1F2937;
-    color: white;
 }
-
 
  header #logo{
     font-size:24px;
     color:#F9FAF8;
-    width:40%;
 }
 
 
- header #header_content{
+ header #header_content, #introduction_content {
     margin: 0 15%;
     display:flex;
     justify-content: space-between;    
@@ -34,8 +26,47 @@ header{
     gap: 20px;
 }
 
- header #menu li{
+ header #menu li, #introduction p{
     list-style-type:none;
     font-size: 18px;
     color:#E5E7EB;
+}
+
+/*introduction section properties*/
+
+#introduction{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+#introduction h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-bottom:0px;
+}
+
+#introduction p{
+    margin-top:0px;
+    margin-bottom:5px;
+}
+
+#introduction button{
+    background-color: #3882F6;
+    font-size: 14px;
+    font-weight:bold;
+    color:#F9FAF8;
+    border-radius: 6px;
+    border-color:#3882F6;
+    padding: 5px 20px 5px 20px;
+}
+
+#introduction_left{
+    width:50%  
+}
+
+#introduction img{
+  width: 400px;
+  height:200px;
+  margin-top:45px;
 }
